@@ -10,11 +10,11 @@ function gpx_documento_cmb()
         'object_types'  => array('documento'), // Post type
     ));
 
-    $cmb->add_field(array(
-        'name'    => esc_html__('Descrição', 'svt'),
-        'id'      => 'gpx_documento_desc',
-        'type'    => 'textarea',
-    ));
+    // $cmb->add_field(array(
+    //     'name'    => esc_html__('Descrição', 'svt'),
+    //     'id'      => 'gpx_documento_desc',
+    //     'type'    => 'textarea',
+    // ));
 
     $cmb->add_field(array(
         'name'    => esc_html__('Arquivo para download', 'svt'),
