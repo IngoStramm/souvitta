@@ -39,7 +39,7 @@ function gpx_area_restrita_managment()
 }
 
 // Exibe o formulário de login na página de login
-add_filter('the_content', 'gpx_filter_login_page_content', 1);
+// add_filter('the_content', 'gpx_filter_login_page_content', 1);
 
 function gpx_filter_login_page_content($content)
 {

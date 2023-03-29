@@ -4,7 +4,7 @@
  * Plugin Name: Souvitta
  * Plugin URI: https://agencialaf.com
  * Description: Descrição do Souvitta.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Ingo Stramm
  * Text Domain: svt
  * License: GPLv2
