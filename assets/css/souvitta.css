@@ -1,0 +1,43 @@
+.documento-titulo {
+  color: #00477f; }
+
+.documento-actions {
+  float: right;
+  list-style: none; }
+  .documento-actions .documento-action {
+    display: inline-block;
+    vertical-align: middle; }
+    .documento-actions .documento-action a {
+      color: #2991d6;
+      font-size: 1em;
+      transition: color 0.2s; }
+    .documento-actions .documento-action a:active,
+    .documento-actions .documento-action a:focus,
+    .documento-actions .documento-action a:hover,
+    .documento-actions .documento-action a:focus:hover {
+      color: #2275ac; }
+
+.categorias-documento-widget.widget_categories ul li a {
+  display: inline-block;
+  padding: 5px 10px; }
+
+.categorias-documento-widget.widget_categories ul li.current-cat a {
+  text-indent: 0.5em;
+  font-size: 1.25em;
+  text-transform: uppercase; }
+
+.categorias-documento-widget.widget_categories ul li.current-cat .children a {
+  font-size: inherit;
+  text-transform: none;
+  text-indent: 0; }
+
+.svt-toggle-list .toggle {
+  float: right;
+  font-size: 1.5em !important; }
+
+.svt-toggle-list .children {
+  display: none; }
+  .svt-toggle-list .children.visible {
+    display: block; }
+
+/*# sourceMappingURL=souvitta.css.map */
