@@ -1,7 +1,7 @@
 {
     "name": "souvitta",
     "description": "Descrição do Souvitta.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "title": "Souvitta",
     "homepage": "https://agencialaf.com",
     "main": "Gruntfile.js",

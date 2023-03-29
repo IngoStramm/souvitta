@@ -30,6 +30,7 @@ function gpx_documento_cpt()
     $documento->set_arguments(
         array(
             'public' => true,
+            'show_in_nav_menus' => true,
             'has_archive' => true,
             'supports' => array('title'),
         )
