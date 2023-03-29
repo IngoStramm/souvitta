@@ -29,6 +29,7 @@ function gpx_documento_cpt()
 
     $documento->set_arguments(
         array(
+            'public' => true,
             'has_archive' => true,
             'supports' => array('title'),
         )
