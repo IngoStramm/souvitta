@@ -6,6 +6,7 @@ wp-cli.local.yml
 node_modules/
 src/node_modules
 src/.sass-cache
+src/npm-debug.log
 *.sql
 *.tar.gz
 .editorconfig

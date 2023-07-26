@@ -21,7 +21,16 @@ function gpx_documento_cmb()
         'id'      => 'gpx_documento_url',
         'type' => 'file',
         'query_args' => array(
-            'type' => 'application/pdf', // Make library only display PDFs.
-        ),
+            'type' => array(
+                'application/pdf',
+                'application/zip',
+                'application/octet-stream',
+                'application/x-zip-compressed',
+                'multipart/x-zip',
+                'image/gif',
+                'image/jpeg',
+                'image/png'
+            )
+        )
     ));
 }

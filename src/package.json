@@ -1,13 +1,14 @@
 {
     "name": "souvitta",
     "description": "Descrição do Souvitta.",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "title": "Souvitta",
     "homepage": "https://agencialaf.com",
     "main": "Gruntfile.js",
     "devDependencies": {
         "glob-watcher": "~3.0.0",
         "grunt": "^1.6.1",
+        "grunt-cli": "^1.4.3",
         "grunt-contrib-imagemin": "^4.0.0",
         "grunt-contrib-jshint": "~1.0.0",
         "grunt-contrib-uglify": "^5.0.1",
